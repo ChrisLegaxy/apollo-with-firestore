@@ -1,0 +1,28 @@
+{
+  "name": "apollo-firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "nodemon ./src/index.ts",
+    "start": "node ./lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource": "^0.7.0",
+    "apollo-server": "^2.9.16",
+    "dotenv": "^8.2.0",
+    "firebase": "^7.8.0",
+    "firebase-admin": "^8.9.2",
+    "graphql": "^14.6.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
